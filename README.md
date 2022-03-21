@@ -16,7 +16,7 @@ cd ./PX4-Autopilot
 make px4_sitl gazebo_s500__emptyworld
 ```
 
-# Insall QGroundControl
+# Install QGroundControl
 
 Add current user accout to dialout group and remove modemmanager
 ```
