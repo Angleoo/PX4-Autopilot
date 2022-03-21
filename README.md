@@ -10,3 +10,22 @@
 
 6) cd ./PX4-Autopilot
 7) make px4_sitl gazebo_s500__emptyworld
+
+
+# Insall QGroundControl
+
+Add current user accout to dialout group and remove modemmanager
+```
+sudo usermod -a -G dialout $USER
+sudo apt-get remove modemmanager
+```
+
+Download QGroundControl.AppImage 
+```
+wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+```
+Change permissions and run 
+```
+chmod +x ./QGroundControl.AppImage 
+./QGroundControl.AppImage
+```
