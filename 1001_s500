@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# @name S500 Quadrotor SITL
+#
+# @type Quadrotor X
+#
+# @maintainer Jinkuan
+#
+
+. ${R}etc/init.d/rc.mc_defaults
+
+set MIXER quad_w
