@@ -10,8 +10,8 @@ bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 2) Move emptyworld.world to ./PX4-Autopilot/Tools/sitl_gazebo/worlds
 3) Replace the sitl_target.cmake file at ./PX4-Autopilot/platforms/posix/cmake
 4) In ./PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes;
-   Move 1001_s500 file
-   Replace CMakeLists.txt
+   Move 1001_s500 file &
+   replace CMakeLists.txt
 5) Replace the sitl_run.sh file at ./PX4-Autopilot/Tools
 
 
